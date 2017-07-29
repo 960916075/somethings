@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-05-26 19:53:55
+ * @version $Id$
+ */
+.bk{border:1px solid red;}
+.banner{min-width:1200px; width:100%;}
+.banner img{width:100%;}
+
+
+/* 解决方案框架 */
+
+.case-frame{text-align:center;}
+.case-frame h2{font-size:56px; color:#484848; padding:54px 0 28px;}
+.case-frame p{font-size:16px;}
+.case-frame a{color:#16a3e5; width:120px; padding:24px 0 46px; display:block; font-size:18px; margin:0 auto;}
+
+
+/* 解决方案内容 */
+
+.case-item{width:100%; min-width:1200px;}
+.case-item h2.title{font-size:32px; color:#484848; height:100px; background:#ebeaea; text-align:center;}
+.case-item h2 a{display:inline-block; *display:inline; *zoom:1; width:600px; height:100px; text-align:center; line-height:100px; background:#ebeaea; cursor:pointer; transition:all .3s linear;}
+.case-item h2 .focus{background:#16a3e5; color:white;}
+
+.case-item .text{text-align:center; padding:50px 0 50px; font-size:18px;}
+.case-item ul{margin:0 auto; width:1200px; padding-bottom:50px;}
+
+
+.case-item .skill ul li{ width: 300px;height: 500px; color:#989898;position: relative; overflow: hidden;}
+.case-item .skill ul li span{height: 0; position: absolute;left: 0px; bottom:0px;z-index: 0;overflow: hidden;background-position: center center;}
+/*.case-item .skill ul li:hover span{height:500px;top: 0; bottom: 0;}*/
+.case-item .skill ul li a{display:block; width:400px; text-align:center;}
+/*.case-item .skill ul li a p{ font-size:16px; line-height:24px; color:#989898;width:300px;z-index: 99999;}*/
+.case-item .skill ul li a div{width:292px; height:350px; line-height:300px;text-align:center; position:relative; z-index:1;}
+.case-item .skill ul li a .left{display: block;height: 330px; width: 204px;margin-top:20px;margin-left: 44px;overflow: hidden;}
+.case-item .skill ul li a .middle{display: block;height: 330px; width: 205px;margin-left: 44px;overflow: hidden;}
+.case-item .skill ul li a .right{display: block;height: 330px; width: 204px;margin-left: 44px;overflow: hidden;margin-top:20px;}
+.case-item .skill ul li a .right-2{display: block;height: 330px; width: 203px;margin-left: 44px;overflow: hidden;margin-top:20px;}
+.case-item .skill ul li:hover a .left img{transform:translate(0px,0px);}
+.case-item .skill ul li:hover a .middle img{transform:translate(0px,0px);}
+.case-item .skill ul li:hover .right img{transform:translate(0px,0px);}
+.case-item .skill ul li:hover .right-2 img{transform:translate(0px,0px);}
+.case-item .skill ul li a .left img,.case-item .skill ul li a .right img,.case-item .skill ul li a .right-2 img{transform:translate(-204px,0px);transition:all 0.5s;}
+.case-item .skill ul li a .middle img{transform:translate(-205px,0px);transition:all 1s;}
+/*.case-item .skill ul li a .right img{transform:translate(-204px,0px);}*/
+/*.case-item .skill ul li a .right-2 img{transform:translate(-204px,0px);}*/
+.case-item .skill ul li a div.middle{padding-top:20px; height:330px;}
+.case-item .skill ul li a h5{width: 200px;/*margin-left:50px;*/ font-size:25px; /*padding-bottom:40px;*/color: #333;}
+.case-item .skill ul li:hover a .h5-1,.case-item .skill ul li:hover a .h5-2,.case-item .skill ul li:hover a .h5-3{color: #fff;}
+.case-item .skill ul li:hover a .skill-li-p{opacity: 1;/*color:#989898;*/position: absolute;top:406px;}
+.case-item .skill ul li:hover a .skill-li-p-2{opacity: 1;position: absolute;top:406px;}
+.case-item .skill ul li:hover a .skill-li-p-3{opacity: 1;position: absolute;top:406px;}
+.case-item .skill ul li:hover a .skill-li-p-4{opacity: 1;position: absolute;top:406px;}
+.case-item .skill ul li a .h5-1,.case-item .skill ul li a .h5-2,.case-item .skill ul li a .h5-3,.case-item .skill ul li a .h5-4{position: absolute;left:50px; z-index: 99999;}
+
+.case-item .skill ul .skill-li a .skill-li-p,.case-item .skill ul li a .skill-li-p-2,.case-item .skill ul li a .skill-li-p-3,.case-item .skill ul li a .skill-li-p-4{position: absolute;top:500px; font-size:16px; line-height:24px; width:300px;z-index: 99999; opacity: 0;color:#fff;transition: all 0.5s;}
+/*.case-item .skill ul li a .skill-li-p-2{position: absolute;top:500px; font-size:16px; line-height:24px; width:300px;z-index: 99999; opacity: 0;color:#fff;transition: all 0.5s;}*/
+
+
+/* 案例选项中的效果 */
+
+/*.case-item .skill ul li a div.left span{background:url(../images/icon-1-1.png) no-repeat 0 0; width:58px; height:59px; position:absolute; left:185px; top:108px;transition:all .6s; transform-origin:14px 44px;}
+.case-item .skill ul li a:hover div.left span{transform:rotateZ(360deg);}*/
+
+/*.case-item .skill ul li a div.middle span{display:block; width:49px; height:16px; margin:12px 1.6px 0; background:transparent; border-radius:8px;}*/
+/*.case-item .skill ul li a{position:relative; z-index:1;}
+.case-item .skill ul li a div.middle ul{position:absolute; top:45px; left:91px; width:212px; transition:all 0.0004s;}*/
+/*.case-item .skill ul li a:hover div.middle ul{transform:rotateZ(180deg);}
+.case-item .skill ul li a:hover div.middle img{display:none;}*/
+/*.case-item .skill ul li a:hover div.middle ul li span{background:#16a3e5;}
+.case-item .skill ul li a div.middle ul li span{transition:all .3s linear;}
+.case-item .skill ul li a div.middle ul li span:nth-of-type(1){transition-delay:0.1s;}
+.case-item .skill ul li a div.middle ul li span:nth-of-type(2){transition-delay:0.2s;}
+.case-item .skill ul li a div.middle ul li span:nth-of-type(3){transition-delay:0.3s;}
+.case-item .skill ul li a div.middle ul li span:nth-of-type(4){transition-delay:0.4s;}
+.case-item .skill ul li a div.middle ul li span:nth-of-type(5){transition-delay:0.5s;}
+.case-item .skill ul li a div.middle ul li span:nth-of-type(6){transition-delay:0.6s;}*/
+
+/*.case-item .skill ul li a div.right img{transition:all .5s;}*/
+/*.case-item .skill ul li a div.right:hover img{animation:shake 0.8s;}*/
+/*@keyframes shake{0 {transform:rotateY(0deg);} 25% {transform:rotateY(30deg);} 50% {transform:rotateY(0deg);} 75% {transform:rotateY(30deg);} 100% {transform:rotateY(0deg);}}*/
+
+
+ .industry{display:none;}
+ .industry ul li a{display:block; height:588px; width:400px; position:relative;}
+ .industry ul li a div{height:294px; padding:0 20px; color:white; position:absolute; bottom:0px; transition:all 0.5s ease;}
+
+.industry ul li a:hover div{height:588px; transition:all .4s ease-out .2s;}
+.industry ul li a div.left{background:rgba(153,204,51,.96);}
+.industry ul li a div.middle{background:rgba(255,113,113,.96); top:0px;}
+.industry ul li a img.middle{padding-top:294px;}
+.industry ul li a div.right{background:rgba(75,163,251,.96);}
+.industry ul li a div h5{padding:36px 0 56px; font-size:30px; text-align:center;}
+.industry ul li a div p{font-size:20px; height:80px; text-indent:40px; overflow:hidden; transition:all .3s linear .1s;}
+.industry ul li a:hover p {height: 300px;}
+.industry ul li a div span{display:none; transition:all .3s linear;}

@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*通用样式*/
+*{margin:0; padding:0px;}
+body{font-family:"微软雅黑"; font-size:12px; color:#898989; background:#ffffff;}
+ul,li{float:left; list-style:none;}
+img{border:none; vertical-align:middle; margin:0 auto;}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+.wrapper{width:1200px; margin:0 auto;}
+.clearfix:after{content:""; display:block; clear:both;}
+.clearfix{zoom:1;}
+a:link { color:#838181; text-decoration:none; }
+a:visited { color:#838181; }
+a:hover { color:blue; text-decoration:none; }
+.fl { float:left; }
+.fr { float:right; }
+.bk { border:1px solid red;}
+
+/*banner*/
+
+.banner {width: 100%;min-width: 1200px; height:189px;}
+
+
+/*公司新闻*/
+.news{height: 930px;}
+.news .wrapper h3 {font-size: 14px; color: #000; line-height: 14px; padding-top: 82px; padding-bottom: 28px;}
+.news .wrapper .left{width: 258px;}
+.news .wrapper h2{width: 258px; height: 127px; font-size: 34px; font-weight: bold; text-align: center;padding-top: 36px; background: #f0f0f0; color: #262626;transition:all 0.3s linear; }
+.news .wrapper h2 span{ font-family: Arial; font-size: 18px;font-weight: normal;}
+.news .wrapper h2 a:link,{ background: #f0f0f0; color: #262626;}
+.news .wrapper h2:hover a,.news .wrapper h2:hover{ background: #16a3e5; color: #fff;}
+/*right*/
+.news .wrapper .right ul{height: 650px; width: 882px;margin-top: 4px;}
+.news .wrapper .right ul li {height: 187px; width: 882px;}
+.news .wrapper .right ul .li-2{margin-top: 43px; margin-bottom: 43px;}
+.news .wrapper .right ul .li-1 p,.news .wrapper .right ul .li-2 p,.news .wrapper .right ul .li-3 p{padding-left: 34px;font-size: 14px; color: #262626;line-height: 21px;}
+/*页码*/
+.news .wrapper .right .page {height: 39px; margin-top:61px; margin-left: 530px; margin-bottom:54px;}
+.news .wrapper .right .page li {width: 39px; height: 39px; background: #fff; text-align: center; margin: 0 auto; font-size: 16px; color:#504f4f; line-height: 39px; margin-right: 8px; border: 1px solid #e3e3e3;}
+.news .wrapper .right .page .li-01{ background: #3ab9f4; color:#fff; border: 1px solid transparent;}
+.news .wrapper .right .page .li-07,.news .wrapper .right .page .li-08{width: 60px; height: 39px;}

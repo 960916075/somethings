@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-05-25 19:57:24
+ * @version $Id$
+ */
+
+
+
+.aboutus .wrapper>div>.next p:hover{background:url(../images/more-2.png) no-repeat 0 0;transition:all.300s ease-out;}
+
+
+/*banner*/
+
+.banner{width:100%; min-width:1200px;}
+.banner img{width:100%;}
+
+/*商用大屏领导者*/
+/*plate01*/
+
+.aboutus .wrapper{width:1200px auto;background:#f8f8f8;*height:826px;}
+.aboutus .wrapper .plate01{float:left;width:339px;height:685px; text-align:left;font-size:14px;color:#adabab;padding-left:23px; margin-top:93px; border-right:1px solid #cbc9c9; position:relative}
+.aboutus .wrapper .plate01 h3 {font-size:25px; display:block;}
+.aboutus .wrapper .plate01 img{margin-top:54px;margin-bottom:32px;}
+.aboutus .wrapper .plate01 p {font-size:18px;display:block;color:#484646;margin-bottom:30px;}
+.aboutus .wrapper .plate01 span{display:block; float:left; height:221px;width:318px;line-height:22px; text-align:justify;text-indent:20px;}
+.aboutus .wrapper .plate01 .next{width:162px; height:100px; border-top:1px solid #cbc9c9; margin-top:277px;}
+.aboutus .wrapper .plate01 .next p{position:absolute;bottom:65px; width:93px;height:29px;font-size:12px;color:#fff; line-height:29px; text-indent:8px;background:url(../images/back.png) no-repeat 0 center;}
+
+/*plate02*/
+
+.aboutus .wrapper .plate02{float:left;width:399px;height:685px; text-align:left;font-size:14px;color:#adabab;padding-left:35px; margin-top:93px; margin-bottom:47px;border-right:1px solid #cbc9c9; position:relative;}
+.aboutus .wrapper .plate02 h3{display:block; font-size:18px;color:#484646;text-indent:22px; margin-top:26px;}
+.aboutus .wrapper .plate02 .english{display:block;font-size:18px;text-indent:22px;margin-top:17px;}
+.aboutus .wrapper .plate02 .photo01,.photo02{padding-top:44px;}
+.aboutus .wrapper .plate02 .photo01 img{float:left;transition:all 0.3s;}
+.aboutus .wrapper .plate02 .photo01 img:hover {opacity:1;transform:scale(1.2) translate(5px,5px);}
+.aboutus .wrapper .plate02 .photo01 h4{display:block;float:left; width:100px; font-size:16px;color:#686666;padding-left:9px;}
+.aboutus .wrapper .plate02 .photo01 p{display:block;float:left;width:175px;margin-top:12px;padding-left:9px;}
+.aboutus .wrapper .plate02 .photo02 img{float:left;}
+.aboutus .wrapper .plate02 .photo02 img:hover {transition:all 0.3s; opacity:1;transform:scale(1.2) translate(5px,5px);}
+.aboutus .wrapper .plate02 .photo02 h4{display:block; float:left; width:100px;padding-left:9px; font-size:16px;color:#686666;}
+.aboutus .wrapper .plate02 .photo02 p{display:block;float:left;width:175px;margin-top:12px;padding-left:9px;}
+.aboutus .wrapper .plate02 .next p{position:absolute;bottom:95px; left:35px; width:93px;height:29px;font-size:12px;color:#fff; line-height:29px; text-indent:8px;background:url(../images/back.png) no-repeat 0 center;}
+
+/*plate03*/
+
+.aboutus .wrapper .plate03{float:left;width:365px;height:685px; text-align:left;font-size:14px;color:#adabab;padding-left:35px; margin-top:93px;*margin-bottom:47px;position:relative;}
+.aboutus .wrapper .plate03 h3{display:block; font-size:18px;color:#484646; margin-top:13px;}
+.aboutus .wrapper .plate03 .english{display:block;font-size:18px;margin-top:16px;}
+.aboutus .wrapper .plate03 .white{width:268px;height:332px;background:#fff;margin-top:25px; margin-bottom:77px;padding-top: 63px; }
+.aboutus .wrapper .plate03 .white .box{width:174px;height: 245px;overflow: hidden;margin-left: 47px;position: relative;}
+.aboutus .wrapper .plate03 .white ul{width:696px;height:246px; position: absolute;left:0; top:0;}
+.aboutus .wrapper .plate03 .white .box li{display: inline-block;}
+.aboutus .wrapper .plate03 .white h4{font-size:16px;color:#373636;text-align:center; line-height:65px;}
+.aboutus .wrapper .plate03 .cardShow .last{width:50px;height:42px;background:#454545;position:absolute;top:260px;right:330px; text-align:center;padding-top:7px;transition:all.30s ease-out;}
+.aboutus .wrapper .plate03 .cardShow .next{width:50px;height:43px;background:#454545;position:absolute;top:260px;right:83px; text-align:center;padding-top:6px;transition:all.30s ease-out;}
+.aboutus .wrapper .plate03 .next p{position:absolute;bottom:95px; width:93px;height:29px;font-size:12px;color:#fff; line-height:29px; text-indent:8px;background:url(../images/back.png) no-repeat 0 0;}
+.aboutus .wrapper .plate03 .cardShow .last:hover,.aboutus .wrapper .plate03 .cardShow .next:hover{background:#16a3e5;transition:all.300s ease-out;}

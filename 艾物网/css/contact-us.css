@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-05-26 09:49:58
+ * @version $Id$
+ */
+textarea {resize:none; width:308px; height:152px; background-color:transparent; content:"";}
+input {border-style:none; border-bottom: 1px solid #c3c3c3; }
+/* banner */
+
+.banner{width:100%; min-width:1200px;}
+.banner img{width:100%;}
+
+
+/* 联系我们 */
+
+/*联系我们上部分*/
+
+ .fl{float:left;}
+ .fr{float:right;}
+ .bg{background:#ebeaea; padding-bottom:50px;}
+ .contact {min-width:1200px; background:#fff;}
+ .contact .contact-left .title {width:325px; height:85px; background:#5d6da1; position:relative; }
+ .contact .contact-left .title h3 {font-size:30px; font-weight:bold;color:#FFF; text-align:right; padding-top:10px; display:block; width:300px; } 
+ .contact .contact-left .title p {font-size:24px; font-family:"Times New Roman";color:#fff; text-align:right; display:block; width:300px;}
+ .contact .contact-left .title i {display:block; width:4px;height:60px;background:#ffa127; position:absolute;top:15px; right:0px;}
+ .contact .contact-left .count {width:325px; height:370px;background:#5d6da1;margin-top:8px;}
+ .contact .contact-left .count p {font-size:14px; color:#fff; line-height:24px; displaay:block; width:270px; padding-left:24px; text-align:justify; padding-top:24px;}
+
+ .contact .contact-right {background:url(../images/contact-bg.jpg) no-repeat 410px 57px;  width:867px; height:463px;}
+ .contact .contact-right .mes {padding:93px 366px 192px 40px;}
+ .contact .contact-right h4 {font-size:28px; color:#5d6da1;}
+ .contact .contact-right p {font-size:16px; line-height:26px;
+    color:#828181; padding-top:28px;}
+.bk {border:1px solid red;}
+    /*联系我们下部分*/
+ .contact2 {min-width:1200px; background:#fff; margin-top:18px;}
+ .contact2 .contact2-left .title {width:325px; height:85px; background:#5d6da1; position:relative; }
+ .contact2 .contact2-left .title h3 {font-size:30px; font-weight:bold;color:#FFF; text-align:right; padding-top:10px; display:block; width:300px; } 
+ .contact2 .contact2-left .title p {font-size:24px; font-family:"Times New Roman";color:#fff; text-align:right; display:block; width:300px;}
+ .contact2 .contact-left2 .title i {display:block; width:4px;height:60px;background:#ffa127; position:absolute;top:15px; right:0px;}
+ .contact2 .contact2-left .count {width:325px; height:370px;background:#5d6da1;margin-top:8px;}
+ .contact2 .contact2-left .count p {font-size:14px; color:#fff; line-height:24px; displaay:block; width:270px; padding-left:24px; text-align:justify; padding-top:24px;}
+
+ .contact2 .contact2-right {background:url(../images/advice.jpg) no-repeat 354px 57px;  width:867px; height:600px;}
+/* .contact2 .contact2-right .mes {padding:93px 366px 192px 40px; border:1px solid red;}*/
+  .contact2 .contact2-right  table {padding-left:40px; padding-top:70px;}
+ .contact2 .contact2-right  table td {padding-top:20px;}
+ .contact2 .contact2-right  table td.left {
+    text-align:right; font-size:18px; color:#828181; 
+ }
+  .contact2 .contact2-right form table td input.submit,.contact2 .contact2-right form table td input.reset {width:50px; height:20px;}
+  .contact2 .contact2-right form table td textarea.msg {font-size:18px; }
+  .contact2 .contact2-right form table td input.reset{margin-left:110px;}
+  .contact2 .contact2-right form table td input.submit{margin-left:50px;}

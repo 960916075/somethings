@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/*通用样式*/
+*{margin:0; padding:0px;}
+body{font-family:"微软雅黑"; font-size:12px; color:#898989; background:#ffffff;}
+ul,li{float:left; list-style:none;}
+img{border:none; vertical-align:middle; margin:0 auto;}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+.wrapper{width:1200px; margin:0 auto;}
+.clearfix:after{content:""; display:block; clear:both;}
+.clearfix{zoom:1;}
+a:link { text-decoration:none; }
+a:visited { color:#838181; }
+a:hover { color:blue; text-decoration:none; }
+.fl { float:left; }
+.fr { float:right; }
+.bk { border:1px solid red;}
+
+/*banner*/
+
+.banner {width: 100%;min-width: 1200px; height:191px;}
+
+/*成功案例*/
+
+.case .case-left {height:162px; width: 240px;}
+.case .case-left .outside { width:240px;border-top:1px solid #918f8f; position: relative; background: #fff; transition:all 0.3s linear;}
+.case .case-left .outside ul li{ transition:all 0.3s linear;}
+.case .case-left .outside .slant{position: absolute;top:-1px;left: 239px;}
+.case .case-left .outside .outside-txt{font-size: 18px; font-weight: bold; color: #262626; line-height: 54px;}
+.case .case-left .outside .outside-txt a:link,.case .case-left .outside .outside-txt a:visited,.case .case-left .outside .outside-txt a:hover{font-size: 18px; font-weight: bold; color: #262626; line-height: 54px;}
+.case .case-left .outside .outside-txt ul .display-glass-txt{padding-right: 100px;}
+.case .case-left .outside .outside-txt ul .display-glass-txt-3{padding-right: 58px;}
+.case .case-left .outside .outside-txt ul .display-glass-txt-4{padding-right: 128px;}
+.case .case-left .outside .outside-txt ul .display-glass-txt-5{padding-right: 100px;}
+.case .case-left .outside .outside-txt ul .display-glass-txt a:hover,.case .case-left .outside .outside-txt ul .display-glass-txt-3,.case .case-left .outside .outside-txt ul .display-glass-txt-4 a:hover,.case .case-left .outside .outside-txt ul .display-glass-txt-5 a:hover{font-size: 14px; color: #fff; line-height: 18px;}
+.case .case-left .outside .outside-txt .display-glass{*display: none;opacity: 0; height: 0px; transition:all 0.5s linear; overflow: hidden;}
+.case .case-left .outside .outside-txt:hover .display-glass{*display: block;opacity: 1; background: #fff; height: 200px;}
+.case .case-left .outside .outside-txt ul li a:link,.case .case-left .outside .outside-txt ul li a:visited {font-size: 14px; color: #696868; line-height: 18px;}
+.case .case-left .outside .outside-txt ul li a:hover{font-size: 14px; color: #fff; line-height: 18px;}
+.case .case-left .outside .outside-txt .plus-sign{margin-left: 70px;opacity: 1;}
+.case .case-left .outside .outside-txt:hover .plus-sign{*display: none; opacity: 0; transition:all 0.5s linear;}
+.case .case-left .outside .outside-txt .minus-sign{position: absolute;top:27px; left: 196px;*display: none; opacity: 0; transition:all 0.5s linear;}
+.case .case-left .outside .outside-txt:hover .minus-sign{*display: block; opacity: 1;}
+.case .case-left .outside .outside-txt span{padding-left:21px; }
+
+
+/*.case .case-left .outside .outside-txt .display-glass{height: 300px; position: absolute;top:54px;}*/
+.case .case-left .outside .outside-txt .display-glass li .vertical-line{padding-right: 8px;}
+.case .case-left .outside .outside-txt .display-glass li{width: 214px;height: 18px; line-height: 18px; font-size: 14px; color: #696868; margin: 11px 11px 10px 0;}
+.case .case-left .outside .outside-txt .display-glass li:hover .vertical-line{opacity: 0;}
+.case .case-left .outside .outside-txt .display-glass li:hover{width: 186px; height: 18px; border-radius: 10px; background:#16a3e5;}
+
+
+.case .wrapper .recommend-right .recommend-right-ul{height: 177px; overflow: hidden;}
+
+.case .case-left .Successful-Cases-Show {padding-bottom: 74px;}
+.case .case-left h2 { font-size: 25px; color:#252525; font-weight:bold; line-height: 25px; padding-top: 40px; padding-bottom: 14px;}
+.case .case-right h4{font-size: 14px; color:#000;padding-top: 40px;padding-bottom: 22px;}
+.case .case-right {margin-left: 42px;}
+.case .case-right a{font-size:18px; color:#7b7979; text-align:center; transition:all 0.3s linear;} 
+.case .case-right a{width:180px; height:40px; border:1px solid #9f9e9e;  border-radius:16px; line-height:40px;display:inline-block; font-size:18px; color:#7b7979; font-size:18px; color:#7b7979; text-align:center; transition:all 0.3s linear;}
+.case .case-right a:hover {border:1px solid transparent; background:#16a3e5; color:#fff;}
+.case .case-right .excellent {margin-left: 4px; margin-right: 37px;margin-bottom: 44px;}
+/*工程案例 中央车站*/
+.case .engineering-right{margin-left:282px; position: relative;}
+.case .engineering-right h4 {padding-top: 108px;padding-left: 42px; font-size: 24px; font-weight: bold; color:#000;}
+.case .engineering-right h4 p{text-indent:32px; font-size: 16px; color:#908e8e; font-weight: normal;line-height: 22px; padding-top: 34px;}
+.case .engineering-right .img-2 {margin-left: 42px; margin-top: 24px;}
+.case .engineering-right .about-more{position: absolute; bottom:10px; left:410px; z-index: 9; font-size: 12px; color:#16a3e5; border: 1px solid #16a3e5; display: block; width: 80px; height: 22px; padding-top: 0.6%; text-align: center; transition: all 0.3s linear;}
+.case .engineering-right span { width: 0; height: 29px; background-color: #16a3e5; position: absolute; bottom:10px; left:410px; z-index: 1; transition:all 0.3s linear;}
+.case .engineering-right span:hover { color: white; width: 81px;}
+.case .engineering-right .about-more:hover { font-size: 13px;}
+/*推荐案例*/
+.case .recommend-right {margin-left:282px;}
+.case .recommend-right .river-1,.case .recommend-right .river-2,.case .recommend-right .river-3,.case .recommend-right .river-4{position: relative;}
+.case .recommend-right .river-1 p,.case .recommend-right .river-2 p,.case .recommend-right .river-3 p,.case .recommend-right .river-4 p{font-size: 20px; font-weight: bold; color: #16a3e5; text-align: center;}
+
+
+/*.case .recommend-right .river-1{display: block;width: 192px; height: 177px; background: url(../images/river-1.jpg);}
+.case .recommend-right .river-2{display: block;width: 192px; height: 177px; background: url(../images/river-2.jpg);}
+.case .recommend-right .river-3{display: block;width: 192px; height: 177px; background: url(../images/river-3.jpg);}
+.case .recommend-right .river-4{display: block;width: 192px; height: 177px; background: url(../images/river-4.jpg);}*/
+
+.case .recommend-right .river-1 a:after,.case .recommend-right .river-2 a:after,.case .recommend-right .river-3 a:after,.case .recommend-right .river-4 a:after{background:rgba(0,0,0,0.2);border-radius: 10px; content:"";width:100%; height: 0px; position: absolute;left: 0px; top:85.5px; transition:all 0.3s linear; background-position: center center; }
+.case .recommend-right .river-1:hover a:after,.case .recommend-right .river-2:hover a:after,.case .recommend-right .river-3:hover a:after,.case .recommend-right .river-4:hover a:after{width: 192px; height: 177px; top:0;}
+.case .recommend-right .river-1 p,.case .recommend-right .river-2 p,.case .recommend-right .river-3 p,.case .recommend-right .river-4 p{width: 192px;height: 20px; position: absolute; bottom:76px;*display: none; opacity:0; transition:all 0.5s linear; line-height: 20px;}
+.case .recommend-right .river-1:hover p,.case .recommend-right .river-2:hover p,.case .recommend-right .river-3:hover p,.case .recommend-right .river-4:hover p{color: #fff;opacity: 1; transition:all 0.5s linear; transform: translate(0px,-10px);}
+/*.case .recommend-right .river-1:hover p b{}*/
+.tra1 { transition: 240ms ease 40ms;}
+.tra2 { transition: 240ms ease 80ms;}
+.tra3 { transition: 240ms ease 120ms;}
+.tra4 { transition: 240ms ease 160ms;}
+.tra5 { transition: 240ms ease 200ms;}
+.tra6 { transition: 240ms ease 240ms;}
+.case .recommend-right .river-1 span,.case .recommend-right .river-2 span,.case .recommend-right .river-3 span,.case .recommend-right .river-4 span{font-size: 12px;color: #5a5858;padding-left: 70px;}
+
+.case .recommend-right .river{position: absolute;top:5px; left: 5px;*display: none; opacity:0; transparent:all 0.3s linear;}
+.case .recommend-right .masking {position: absolute; bottom:5px; left: 5px;*display: none; opacity:0; transparent:all 0.3s linear;}
+.case .recommend-right .river-1:hover .river,.case .recommend-right .river-2:hover .river,.case .recommend-right .river-3:hover .river,.case .recommend-right .river-4:hover .river{*display: block; opacity:1; z-index:0;}
+.case .recommend-right .river-1:hover p,.case .recommend-right .river-2:hover p,.case .recommend-right .river-3:hover p,.case .recommend-right .river-4:hover p{*display: block;opacity:1; z-index:1;}
+.case .recommend-right .river-1:hover .masking,.case .recommend-right .river-2:hover .masking,.case .recommend-right .river-3:hover .masking,.case .recommend-right .river-4:hover .masking{*display: block;opacity:1;}
+.case .recommend-right h4 {font-size: 24px; font-weight: bold; color:#000;line-height: 24px;margin-top: 54px; margin-bottom: 14px;}
+.case .recommend-right ul li {display: inline-block; margin-right: 49px;}
+.case .recommend-right ul .river-4{ margin-right: 0px;}
+
+/*页码*/
+
+.case .recommend-right .page {margin-top:90px; margin-left: 246px; margin-bottom:104px; }
+.case .recommend-right .page-2 { margin-top:90px; margin-bottom:104px;}
+.case .recommend-right .page li,.case .recommend-right .page-2 li {background: #fff!!important; text-align: center; margin: 0 auto; font-size: 16px; color:#504f4f; line-height: 39px; margin-right: 8px; border: 1px solid #e3e3e3;}
+.case .recommend-right .page-2 p{display: inline-block; width: 39px; height: 39px; border: 1px solid transparent;text-align: center;margin-top: 10px;}
+.case .recommend-right .page li a,.case .recommend-right .page-2 li a{display: block; width: 39px; height: 39px; }
+.case .recommend-right .page .li-01{ background: #3ab9f4; color:#fff;}
+.case .recommend-right .page-2 .li-07,.case .recommend-right .page-2 .li-08{width: 60px; height: 39px;}

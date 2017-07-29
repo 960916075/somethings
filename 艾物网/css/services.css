@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+/* 通用样式*/
+* {margin:0px; padding:0px;}
+body { font-size:12px; font-family:"微软雅黑"; color:#838181; line-height:20px; background:#fff;}
+ul,li { list-style:none;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+img{border:none; vertical-align:middle;}
+a:link { color:#838181; text-decoration:none; }
+a:visited { color:#838181;}
+a:hover { color:#16a3e5; text-decoration:none; }
+.wrapper { width:1200px; margin:0 auto; border:0px solid red; }
+.fl { float:left;}
+.fr { float:right;}
+.clearfix:after { content:""; height:0; visibility:hidden; display:block; clear:both; font-size:0;}
+.clearfix{ zoom:1}
+.bk{border:1px solid red;}
+
+/* banner  样式*/
+.header {width:100%;}
+.header img{width:100%;}
+
+/* 内容  样式*/
+.content {width:100%; min-width:1200px; height: 1058px;}
+.content .cotent {width:780px; position: relative;}
+.content h3 {font-size:18px; color:#2d2e2e; line-height: 36px;padding-top:10px;}
+.content p {font-size: 14px; color: #828485; line-height: 32px;}
+.content .wrapper .import { display:block; width:666px; height:48px; border:1px solid #d9dbdc; line-height: 48px; text-indent:12px; }
+.content .wrapper .import input{width: 500px;height: 43px;border-style: none;}
+.content .wrapper .inquniry{display:block; width:90px; height:50px; background:#16a3e5; color:white; font-size:16px; line-height:48px; text-align:center;}
+
+.content .plate01 h1 {font-size:18px; color:#000; line-height: 54px; margin-top: 10px;}
+.content .plate01 ul li{display: inline-block; *display:inline; *zoom:1;width:238px;height: 198px; text-align: center;margin-left:22px;}
+.content .plate01 a {display:block;}
+/*文字动画*/
+.content ul li span { display:inline-block;font-size: 18px; color:white;transform:translate( 0,0);transition:all .3s;}
+.content ul li:hover span{transform:translate(0,35px);}
+/*文字动画*/
+/*英文动画*/
+.content .t b{ display:inline-block;font-size: 22px;text-align: center;opacity:1;}
+.content .t {transition:all .3s; opacity:0;}
+.content li:hover .t{opacity:1; transform:translate(0,30px);}
+.content li:hover b{transform: translate(0px,-10px);}
+.content .t .tar1{transition:all 300ms ease 200ms;}
+.content .t .tar2{transition:all 300ms ease 250ms;}
+.content .t .tar3{transition:all 300ms ease 300ms;}
+.content .t .tar4{transition:all 300ms ease 350ms;}
+.content .t .tar5{transition:all 300ms ease 400ms;}
+.content .t .tar6{transition:all 300ms ease 450ms;}
+.content .t .tar7{transition:all 300ms ease 500ms;}
+.content .t .tar8{transition:all 300ms ease 550ms;}
+/*英文动画*/
+/*图片动画*/
+.content .pic{width: 58px;height: 58px;margin-top: 35px;margin-left: 90px;transition:all .3s;transform:translate(0,0);overflow: hidden;}
+.content img{transition:all .5s;}
+.content li:hover img{transform:translate(-58px,0);}
+/*图片动画*/
+
+.content .plate01 a:visited{color:white;}
+.content .plate01 .li01 {background:#5aa640; margin-left: 0px;}
+.content .plate01 .li02 {background:#b955b9 ;}
+.content .plate01 .li03 {background:#55c69a ;}
+/**/
+.content .plate02 h1 {font-size:18px; color:#000; line-height: 54px;margin-top: 10px;}
+.content .plate02 ul li{display: inline-block;*display:inline; *zoom:1; width:238px;height: 198px; text-align: center;margin-left:22px;} 
+.content .plate02 a:visited{color:white;}
+.content .plate02 .li01 {background:#6bcae6; margin-left: 0px;}
+.content .plate02 .li02 {background:#e8be63;}
+.content .plate02 .li03 {background:#e78e72;}
+/*.content .plate02 img {margin-top: 35px;}*/
+/**/
+.content .plate03 h1 {font-size:18px; color:#000; line-height: 54px;margin-top: 10px;}
+.content .plate03 ul li{display: inline-block;*display:inline; *zoom:1; width:238px;height: 198px; text-align: center;margin-left:22px;} 
+.content .plate03 a:visited{color:white;}
+.content .plate03 .li01 {background:#0494bd; margin-left: 0px;}
+.content .plate03 .li02 {background:#ad65ad;}
+.content .plate03 .li03 {background:#39b887;}
+.content .cotent .serve {width:394px; height:124px; border: 1px solid#d2d1d1; position:absolute; top:-1px;left:806px;padding-top:28px;}
+.content .cotent .serve p {text-indent:20px; line-height:normal;font-size:18px;color:#9a9999;}
+.content .cotent .serve h3 { text-indent:20px;line-height:16px;font-size:32px;color:#0d0d0d;}
+.content .cotent .serve .trn03 {line-height:40px;font-size:12px;}
+
+.content .cotent .seek {width:396px; height:116px; background:#16a3e5; position:absolute; top:152px;left:806px;padding-top: 34px;}
+.content .cotent .seek p {line-height:24px;text-indent:20px; font-size:16px;color:#fff;}
+
+.content .cotent .matter {width:396px; height:34px; background:#16a3e5; position:absolute; top:362px;left:806px;padding-top:10px;}
+.content .cotent .matter p {line-height:normal;text-indent:20px; font-size:16px;color:#fff;}
+
+.content .cotent .touch {width:396px; height:434px;  position:absolute; top:434px; left:806px;border: 1px solid#d2d1d1}
+.content .cotent .touch .tel{line-height:normal; font-size:25px; color:#565555; font-weight: bold;position:absolute; top:16px; right:116px;}
+.content .cotent .touch img{position:absolute; top:16px; left:50px;}
+.content .cotent .touch .p01{font-size:14px; color:#777676;position:absolute; top:58px; left:50px;}
+
+.content .cotent .touch .writing{position:absolute; top:90px; left:50px;}
+.content .cotent .touch .writing p {line-height:22px;font-size:14px;}
+.content .cotent .touch .writing a:visited {color:#16a3e5;}
+.content .cotent .touch .writing a {display:block;line-height: 50px;margin-top: -10px;}

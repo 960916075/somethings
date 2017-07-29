@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-05-25 19:57:24
+ * @version $Id$
+ */
+
+*{margin:0; padding:0px;}
+a:link,a:visited{color:#898989; text-decoration:none; transition: all 0.4s linear;}
+a:hover{color:#16a3e5; text-decoration:none;}
+body{font-family:"微软雅黑"; font-size:12px; color:#898989; background:#ffffff;}
+li{float:left; list-style:none;}
+img{border:none; vertical-align:middle; margin:0 auto;}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+hr{border-left: none; border-right: none;}
+.wrapper{width:1200px; margin:0 auto;}
+.clearfix:after{content:""; display:block; clear:both;}
+.clearfix{zoom:1;}
+
+/* 头部 */
+
+.header-all{width:100%; height:33px; background:#f1f1f1; min-width:1200px;}
+.header-all .top-cont{ height:33px; line-height:33px;}
+.header-all .wrapper a{margin-right:10px;}
+.header-all .text-left{float:left;}
+.header-all .land{display:inline-block; text-indent:14px;}
+
+.header-all .bg-image-format{text-indent:14px; display:inline-block;}
+.header-all .weChat{background:url(../images/phone.png) no-repeat 0 center; position: relative; z-index: 9;}
+.header-all .weChat i { background: url(../images/richScan.png); position: absolute; top: 20px; left: -110px; width: 300px; height: 420px; border-radius: 8px; display: none;}
+.header-all .weChat .focus { transform:rotateZ(180deg); transition:all .3s linear;}
+
+.header-all .text-right{list-style:none; float:right;}
+.header-all .collect{background:url(../images/star.png) no-repeat 0 center;}
+.header-all .hotline{background:url(../images/tel.png) no-repeat 0 center;}
+
+
+.header-all .wrapper .login { background:url(../images/login.jpg) no-repeat;}
+.header-all .wrapper .signIn { background:url(../images/signIn.jpg) no-repeat;}
+.header-all .wrapper .login,.header-all .wrapper .signIn { display: block; width: 1232px; height: 784px; position: relative; top: 50%; left: 50%; z-index: 9; margin-left: -616px; display: none;}
+.header-all .login input:nth-child(1) { position: absolute; top: 372px; left: 500px;}
+.header-all .login input:nth-child(2) { position: absolute; top: 432px; left: 500px;}
+.header-all .signIn input:nth-child(1) { position: absolute; top: 316px; left: 470px; width: 270px;}
+.header-all .signIn input:nth-child(2) { position: absolute; top: 376px; left: 470px; width: 270px;}
+.header-all .signIn input:nth-child(3) { position: absolute; top: 424px; left: 600px; width: 140px; height: 40px;}
+.header-all .login a,.header-all .signIn a { letter-spacing: 18px; color: #1741a2; font-size: 16px;}
+.header-all #land { position: absolute; top: 526px; left: 568px;}
+.header-all #cancel { word-spacing: 18px; position: absolute; top: 526px; left: 694px;}
+.header-all .signIn #land { left: 550px;}
+.header-all .signIn #cancel { left: 678px;}
+
+/* 菜单 */
+
+.logo{float:left;padding:20px 150px 20px 0;}
+.nav{float:left;}
+.nav-cont{height:100px;}
+.fixed{ position: fixed; top: 0; left: 0; z-index: 9; padding-left: 8%; padding-right: 8%; box-sizing: border-box; height: 100px; width: 100%; background-color: white; box-shadow: 2px 0 6px #bbb; display: none;}
+.nav>ul>li{margin:0 16px; height:80px; line-height:101px; position: relative;}
+.nav>ul>li.homepage{margin-left:10px;}
+.nav>ul>li a{display:inline-block; position:relative; width:60px; font-size:14px; text-align:center;}
+.nav>ul>li a i{display:block; background:white; position:absolute; left: 50%; bottom:0; width:0px; height:3px; transition:width 1s; -webkit-transition:all 1s;}
+.nav>ul>li a:hover i{width:60px; background:#16a3e5; left: 0; right: 0;}
+
+.nav>ul>li>ul{position: absolute; top: 100px; left: -18px; text-align: center; z-index: 99; height: 0; overflow: hidden; cursor: pointer; transition: all 0.4s cubic-bezier(0.6,0.2,0.8,0.4);}
+.nav>ul>li>ul>li{float: none; width: 90px; line-height: 30px; height: 30px; font-size: 14px; color: white; background-color: #58bfff; border-radius: 2px; border-bottom:1px solid #dedfe0; transition:all 0.2s linear;}
+.nav>ul>li:hover ul {height: 230px;}
+.nav>ul>li>ul li:hover{background-color: #16a3e5;}
+.nav-cont .share-icon{padding:30px 0;}
+.nav-cont .share-icon a{float:right; height:40px; width:40px; margin:0 6px; text-align:center; line-height:40px; background:#16a3e5; border-radius:5px; *padding-top:14px; *height:26px;}
+
+/* 底部 */
+
+.bottom-all{background:#f0f0f0; min-width:1200px;}
+.bottom-all ul li{height:188px; width:90px; padding:162px 0 62px 104px;}
+.bottom-all ul li.list-1{padding-left:0px;}
+.bottom-all ul li.list-6{width:226px;}
+.bottom-all ul li.list-6 i{display:inline-block; width:36px;}
+.bottom-all ul li hr{margin:6px 0 4px;}
+.bottom-all ul li a{display:inline-block; padding-top:8px; }
+.bottom-all ul li a:hover { transform:translate( 0px, -3px);}
+.bottom-all ul li a p{display:inline-block; width:6px; height:6px; background:#16a3e5; border-radius:6px; margin-right:6px; margin-bottom:2px; *display:inline; *zoom:1;}
+.bottom-all .bottom-nav span{font-size:14px; color:#666;}
+
+.bottom-all .footer-text{border-top:1px solid #949595; height:44px; *margin-top:62px;}
+.bottom-all .footer-text .copyright{display:block; float:left; line-height:44px;}
+.bottom-all .footer-text .icon{float:right; line-height:44px;}
+.bottom-all .footer-text .icon a{ transition: all 0.3s linear; display: inline-block; *display: inline; *zoom:1; width: 16px; height: 16px;}
+.bottom-all .footer-text .icon a:hover{transform:translateY(-6px)}
