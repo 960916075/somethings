@@ -1,0 +1,6 @@
+  *{font-family: "微软雅黑";}
+    ion-content ,.item,.list{background-color:#fef5e8 ;color:#f44b47}
+    .button{background-color:#591614;color:#f44b47 ;font-family: "微软雅黑";}
+    .right{float:right}
+    .imgP{margin-left:25%;}
+    a{color: #f44b47;text-decoration:none ;}

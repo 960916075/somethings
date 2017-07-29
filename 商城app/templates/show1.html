@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no,width=device-width,height=device-height" />
+    <title>旗袍</title>
+    <link rel="stylesheet" href="../css/ionic.min.css" />
+    <link rel="stylesheet" href="../css/show1.css" />
+    <script src="../js/ionic.min.js"></script>
+    <script src="../js/ionic.bundle.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/mytest.js"></script>
+  
+</head>
+<body ng-controller="myctrl">
+<ion-header-bar class='bar-dark'>
+		<a  class="icon ion-reply" href="javascript:history.back(-1)"></a>
+		<h1 class="title stable">原创旗袍旗舰店</h1>
+	    <a class=" button button-clear buttons-right icon ion-ios-cart-outline"></a>
+</ion-header-bar>	
+<ion-tabs class="tabs-top">
+	<ion-tab title="详情"  class="bg1">
+	<ion-view >
+	<ion-content class="has-header">
+	<ion-slide-box does-continue="true" auto-play="false" slide-interval="4000" show-pager="true">
+		<ion-slide>
+			<div class="box">
+				<img src="../img/product-big.jpg" height="100%" width="100%"  alt="">
+				<a href=""><img src="../img/share.png" alt="" class="share" /></a>
+			</div>
+		</ion-slide>
+		<ion-slide>
+			<div class="box">
+				<img src="../img/product-big.jpg" height="100%" width="100%"  alt="">
+				<a href=""><img src="../img/share.png" alt="" class="share" /></a>
+			</div>
+		</ion-slide>
+	</ion-slide-box>
+	<div class="list">
+		<div class="item">
+			<p>新款改良时尚旗袍裙中长款长袖针织呢料旗袍</p>
+			<p class="money">  ￥528.00 <del> ￥1320.00 </del> </p>
+			<span class="littlefont1">  快递：10.00元&nbsp;&nbsp;&nbsp;&nbsp;月销：31笔<span class='right'> 郑州</span></span>		
+		</div>
+	</div>	
+	<div class="list">
+		<div class="item">			
+			<img src="../img/aside-particulars-tit1.png" alt="" height="20px" style="" /><br />
+			<div class="left">
+			<span>袖长：长袖 </span><br />
+			<span>尺码：XXL XL L M S </span> <br />
+			<span>适用年龄: 25-35周岁</span> <br />
+			</div>
+			<div class="right">
+			<span >货号: 54NP04M9</span><br />
+			<span >开衩高度: 低开衩</span><br />
+			<span >风格: 民族风</span><br />
+			</div>
+		</div>
+	</div>	
+	<div class="list">
+		<div class="item">			
+			<img src="../img/aside-particulars-tit2.png" alt="" height="20px"/><br />
+			<img src="../img/aside-particulars2.jpg" alt="" width="100%"/>
+			
+		</div>
+	</div>	
+	<div class="list">
+		<div class="item">			
+			<img src="../img/aside-particulars-tit3.png" alt="" height="20px"/><br />
+			<img src="../img/aside-particulars3.jpg" alt="" width="100%"/>
+		</div>
+	</div>
+	<div class="list">
+		<div class="item">			
+			<img src="../img/aside-particulars-tit4.png" alt="" height="20px"/><br />
+			<img src="../img/aside-particulars4.jpg" alt="" width="100%"/>
+		</div>
+	</div>
+	<div class="list">
+		<div class="item">			
+			<img src="../img/aside-particulars-tit5.png" alt="" height="20px"/><br />
+			<img src="../img/aside-particulars5.jpg" alt="" width="100%"/>
+		</div>
+	</div>
+	</ion-content>
+	</ion-view>
+	</ion-tab>	
+	
+	
+	<ion-tab title="评价" class="bg1">
+		<ion-view>		
+		<ion-content class="has-header">
+			<div class="list">
+				<div class="item">
+					<div>				
+					<h2 class="title_pj">商品评价</h2>	
+					</div>
+					<span>全部 <input type="radio"  checked="checked"/>131248条评价 </span><span class="right">追加 <input type="radio"  checked="checked"/>132222条评价</span>
+				</div>			
+				<div class="item item-avatar-left">
+					<img src="../img/member-icon.png" alt="" />
+					<div class="left"><span><label>（兔子 ）</label><br />尺码：s <br />颜色：米色</span></div>
+					<div class="right long1">
+						<span>衣服质量非常好！！！</span><br /><br />
+						<span class="right">2017/5/4</span>
+					</div>
+				</div>
+				<div class="item item-avatar-left">
+					<img src="../img/evaluate-icon1.png" alt="" />
+					<div class="left"><span><label>（刺猬）</label><br />尺码：s <br />颜色：米色</span></div>
+					<div class="right long1">
+						<span>上身效果很好，衣服质量非常好！！！</span><br /><br />
+						<span class="right">2017/5/4</span>
+					</div>
+				</div>
+				<div class="item item-avatar-left">
+					<img src="../img/evaluate-icon2.png" alt="" />
+					<div class="left"><span><label>（芒果 ）</label><br />尺码：s <br />颜色：米色</span></div>
+					<div class="right long1">
+						<span>收到的最满意的衣服，下次介绍朋友买</span><br /><br />
+						<span class="right">2017/5/4</span>
+					</div>
+				</div>
+				<div class="item item-avatar-left">
+					<img src="../img/evaluate-icon3.png" alt="" />
+					<div class="left"><span><label>（狮子 ）</label><br />尺码：s <br />颜色：米色</span></div>
+					<div class="right long1">
+						<span>帮朋友买了几套，很满意</span><br /><br />
+						<span class="right">2017/5/4</span>
+					</div>
+				</div>
+				<div class="item item-avatar-left">
+					<img src="../img/evaluate-icon4.png" alt="" />
+					<div class="left"><span><label>（哈哈哈）</label><br />尺码：s <br />颜色：米色</span></div>
+					<div class="right long1">
+						<span>衣服质量非常好！！！</span><br /><br />
+						<span class="right">2017/5/4</span>
+					</div>
+				</div>
+			</div>
+		
+	    </ion-content>		
+		</ion-view>
+	</ion-tab>	
+	<ion-tab title="成交"  class="bg1">
+		<ion-view>
+		<ion-content class="has-header">
+       <div class="list">
+				<div class="item">
+					<div>				
+					<h2 class="title_pj">成交记录</h2>	
+					</div>
+				</div>
+				<div class="item">
+					<div id="four">				
+					<span>买家</span><span>款式/尺寸</span><span>数量</span><span>成交日期 </span >
+					</div>
+				</div>
+				<div class="item">
+					<div id="fourC">				
+					<span>1号刺猬</span> <span>S,黑色  </span> <span>3</span> <span>2017/05/04</span >
+					</div>
+				</div>
+				<div class="item">
+					<div id="fourC">				
+					<span>2号难受</span> <span>S,黑色  </span> <span>1</span> <span>2017/05/10</span >
+					</div>
+				</div>	
+				<div class="item">
+					<div id="fourC">				
+					<span>3号兔子</span> <span>S,蓝色  </span> <span>2</span> <span>2017/04/04</span >
+					</div>
+				</div>	
+				<div class="item">
+					<div id="fourC">				
+					<span>4号萝卜</span> <span>X,黑色  </span> <span>1</span> <span>2017/03/06</span >
+					</div>
+				</div>	
+				<div class="item">
+					<div id="fourC">				
+					<span>5号狗子</span> <span>M,白色  </span> <span>5</span> <span>2017/02/04</span >
+					</div>
+				</div>	
+				<div class="item">
+					<div id="fourC">				
+					<span>6号刺猬</span> <span>S,米色  </span> <span>2</span> <span>2016/12/04</span >
+					</div>
+				</div>
+				<div class="item">
+					<div id="fourC">				
+					<span>6号刺猬</span> <span>S,米色  </span> <span>2</span> <span>2016/12/04</span >
+					</div>
+				</div>	
+				<div class="item">
+					<div id="fourC">				
+					<span>6号刺猬</span> <span>S,米色  </span> <span>2</span> <span>2016/12/04</span >
+					</div>
+				</div>	
+		</div>
+		</ion-content>	
+		</ion-view>
+	</ion-tab>		
+</ion-tabs>
+<div class="bar bar-footer bar-dark">
+	<input type="button" class="button button-assertive pull-right" style="margin-right: 90px;" value="立即购买"></input>
+	<input type="button" class="button pull-right button-energized" value="加入购物车"></input>
+</div>
+<script>
+	angular.module('myApp',['ionic'])
+	.controller('myctrl',function($scope){
+		
+	})
+</script>
+</body>
+</html>

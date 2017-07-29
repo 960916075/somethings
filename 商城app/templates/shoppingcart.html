@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no,width=device-width,height=device-height" />
+    <title>旗袍</title>
+    <link rel="stylesheet" href="../css/ionic.min.css" />
+    <link rel="stylesheet" href="../css/shoppingcart.css" />
+    <script src="../js/ionic.min.js"></script>
+    <script src="../js/ionic.bundle.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/mytest.js"></script>
+</head>
+<body ng-controller="myctrl">
+<ion-header-bar class='bar-dark'>
+		<a  class="icon ion-reply" href="index1.html"></a>
+		<h1 class="title stable">购物车</h1>
+</ion-header-bar>
+<ion-content>
+<div class="list list-inset olist">
+	<div class="item color1" >
+		<input type="checkbox"/>秀观唐服饰旗舰店 &gt;<span class="right"><small>2015-12-11 8:22</small></span>
+	</div>
+	<div class="item color2" >	
+		<input type="checkbox" ng-click="compute2()"/>
+		<div class="content1" >
+		<img src="../img/sort2.png" class="imgsc" width="100px" height="130px"alt=""/>
+		<span class="title2">秀观唐复古真丝旗袍</span><br />
+		<span class="content2">颜色分类：黑底印花</span><br />
+		<span class="content2">尺码：M</span><br />	<br />
+        <span>¥{{price}} &nbsp;&nbsp;<del> ¥{{money}}</del></span><br />
+        <input type="button" value="+" onclick="add(this)"/>
+        <input type="text" min="0" value="1" class="input1"/>
+        <input type="button" value="-" onclick="minu(this)"/>
+        <button class="right sbutton">删除</button>
+		</div>		
+	</div>
+</div>
+
+<div class="list list-inset olist">
+	<div class="item color1" >
+		<input type="checkbox"/>秀观唐服饰旗舰店 &gt;<span class="right"><small>2015-12-11 8:22</small></span>
+	</div>
+	<div class="item color2" >	
+		<input type="checkbox" ng-click="compute2()"/>
+		<div class="content1" >
+		<img src="../img/sort3.png" class="imgsc" width="100px" height="130px"alt=""/>
+		<span class="title2">秀观唐复古真丝旗袍</span><br />
+		<span class="content2">颜色分类：黑底印花</span><br />
+		<span class="content2">尺码：M</span><br />	<br />
+        <span>¥{{price}} &nbsp;&nbsp;<del> ¥{{money}}</del></span><br />
+        <input type="button" value="+" onclick="add(this)"/>
+        <input type="text" min="0" value="1" class="input1"/>
+        <input type="button" value="-" onclick="minu(this)"/>
+        <button class="right sbutton">删除</button>
+		</div>		
+	</div>
+</div>
+
+<div class="list list-inset olist">
+	<div class="item color1" >
+		<input type="checkbox"/>秀观唐服饰旗舰店 &gt;<span class="right"><small>2015-12-11 8:22</small></span>
+	</div>
+	<div class="item color2" >	
+		<input type="checkbox" ng-click="compute2()"/>
+		<div class="content1" >
+		<img src="../img/sort4.png" class="imgsc" width="100px" height="130px"alt=""/>
+		<span class="title2">秀观唐复古真丝旗袍</span><br />
+		<span class="content2">颜色分类：黑底印花</span><br />
+		<span class="content2">尺码：M</span><br />	<br />
+        <span>¥{{price}} &nbsp;&nbsp;<del> ¥{{money}}</del></span><br />
+        <input type="button" value="+" onclick="add(this)"/>
+        <input type="text" min="0" value="1" class="input1"/>
+        <input type="button" value="-" onclick="minu(this)"/>
+        <button class="right sbutton">删除</button>
+		</div>		
+	</div>
+</div>
+
+<div class="list list-inset olist">
+	<div class="item color1" >
+		<input type="checkbox"/>秀观唐服饰旗舰店 &gt;<span class="right"><small>2015-12-11 8:22</small></span>
+	</div>
+	<div class="item color2" >	
+		<input type="checkbox" ng-click="compute2()"/>
+		<div class="content1" >
+		<img src="../img/sort5.png" class="imgsc" width="100px" height="130px"alt=""/>
+		<span class="title2">秀观唐复古真丝旗袍</span><br />
+		<span class="content2">颜色分类：黑底印花</span><br />
+		<span class="content2">尺码：M</span><br />	<br />
+        <span>¥{{price}} &nbsp;&nbsp;<del> ¥{{money}}</del></span><br />
+        <input type="button" value="+" onclick="add(this)"/>
+        <input type="text" min="0" value="1" class="input1"/>
+        <input type="button" value="-" onclick="minu(this)"/>
+        <button class="right sbutton">删除</button>
+		</div>		
+	</div>
+</div>
+
+<div class="list list-inset olist">
+	<div class="item color1" >
+		<input type="checkbox"/>秀观唐服饰旗舰店 &gt;<span class="right"><small>2015-12-11 8:22</small></span>
+	</div>
+	<div class="item color2" >	
+		<input type="checkbox" ng-click="compute2()"/>
+		<div class="content1" >
+		<img src="../img/sort6.png" class="imgsc" width="100px" height="130px"alt=""/>
+		<span class="title2">秀观唐复古真丝旗袍</span><br />
+		<span class="content2">颜色分类：黑底印花</span><br />
+		<span class="content2">尺码：M</span><br />	<br />
+        <span>¥{{price}} &nbsp;&nbsp;<del> ¥{{money}}</del></span><br />
+        <input type="button" value="+" onclick="add(this)"/>
+        <input type="text" min="0" value="1" class="input1"/>
+        <input type="button" value="-" onclick="minu(this)"/>
+        <button class="right sbutton">删除</button>
+		</div>		
+	</div>
+</div>
+</ion-content>
+
+<div class="bar bar-footer bar-dark">
+	<input type="checkbox" id="all" ng-click="checkBox()"/>全选
+	<span> 合计:¥{{heji}}    包含运费:¥{{jiesheng}}</span>
+	<button class="button pull-right button-assertive" ng-click="compute()">结算(0)</button>
+</div>
+</body>
+</html>

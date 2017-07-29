@@ -1,0 +1,21 @@
+
+    *{font-family: "微软雅黑"; }
+    ion-content{background:url(../img/jm-bg.jpg) ;}
+    a{text-decoration: none;color:white ;}
+    .right{float:right}
+    input{float:left;border:1px solid white;background:none ;color:white ;text-align: center;padding:0 2px 5px 0 ;}
+    .content1 input{width:20px;float:left ;margin-right:3px ;height:20px ;}
+    .title2{color:#591614 ;}
+    .content2{font-size:11px;color:#4c4c4c}
+    del{font-size:11px }
+    .imgsc{float: left;margin-right:5px ; }
+    .item{font-size:14px;color:#591614 ; }
+    .list{border-radius:10px ;margin-top:-10px;}
+    .olist{margin-top:0px ;}
+    .color1{height:25px;line-height:20px;padding:2px 15px;background-color: #f6e0c2;}
+    .color2{background-color:#dcc3a8 ; }
+    .sbutton{border-radius:3px ;border:none;background-color:#f1dabd;font-size: 12px }
+    .color2 input[type=checkbox]{margin-top:60px ;margin-right: 5px;}
+    .color1 input[type=checkbox]{margin-top:5px ;margin-right: 5px;}
+    .bar-footer input[type=checkbox]{margin-top:13px ;margin-right: 5px;}
+    .bar-footer{line-height: 34px;}

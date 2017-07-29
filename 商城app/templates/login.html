@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no,width=device-width,height=device-height" />
+    <title>旗袍</title>
+    <link rel="stylesheet" href="../css/ionic.min.css" />
+    <link rel="stylesheet" href="../css/login.css" />
+    <script src="../js/ionic.min.js"></script>
+    <script src="../js/ionic.bundle.js"></script>
+</head>
+<body ng-controller="myctrl">
+<ion-header-bar class='bar-dark'>
+		<a  class="icon ion-reply" href="javascript:history.back(-1)"></a>
+		<h1 class="title stable">原创旗袍旗舰店</h1>
+	    <a class=" button button-clear buttons-right icon ion-ios-cart-outline" href="shoppingcart.html"></a>
+</ion-header-bar>	
+    <ion-content>
+        <div class="list list-inset list-borderless">
+            <div class="item">
+                <img src="../img/logoLogin.png" width="50%" class="imgP"/>
+            </div>
+        </div>
+        <div class="list list-inset padding-top">
+            <div class="item item-input">
+                <i class="icon ion-ios-person-outline padding-right"></i>
+                <input type="text" placeholder="请输入您的账号" />
+            </div>
+        </div>
+        <div class="list list-inset padding-top">
+            <span class="item item-input">
+                <i class="icon ion-ios-locked-outline padding-right"></i>
+                <input type="text" placeholder="请输入您的密码"/>              
+            </span> 
+        </div>
+        <div class="list list-inset list-borderless">
+            <button class="button button-block">登录系统</button>
+            <a  href="logon.html">手机快速注册</a><a  href="logon.html" class="right">忘记密码</a>
+        </div>
+    </ion-content>
+
+<script>
+	angular.module('myApp',['ionic'])
+	.controller('myctrl',function($scope){
+		
+	})
+</script>
+</body>
+</html>

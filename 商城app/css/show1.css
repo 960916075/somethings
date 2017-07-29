@@ -1,0 +1,48 @@
+    *{font-family: "微软雅黑";}
+    ion-view{background:url(../img/jm-bg.jpg) ;}
+    a{text-decoration: none;color:white ;}
+    ion-slide div{width: 100%;height: 250px;}
+    .pName{font-size:12px;color:white ;}
+    p+.money{color:red;}
+    .list{margin-top:-10px ;}
+   del{font-size: 12px;color: #000000;}
+    .right{float: right;font-size:13px ;}
+    .item>div .littlefont{font-size: 10px;}
+    .littlefont span{color:red}
+    .item div p{color:brown;font-weight:bold ; }
+    .item div>p{font-size:16px }
+    .item span{font-size:10px}
+    .item{background-color:#fef5e8;}
+    .myheader{width:100%;height: 250px ;background:url(../img/member-header-bg.jpg) ;padding-top:10px ;}
+    .myicon{width: 150px;margin: auto;background:none ;}
+    .nobc .item{background: none;border:none;}
+    .item h2{font-family: "微软雅黑";font-size:14px }
+    .bg1{background-color:#f6e0c2;color:#39191a }
+    .share{position:absolute;z-index: 999; left:-70px;top:207px;height:33px;width:70px ;}
+    .left{float: left;}
+    .bar-footer{background-color:#591614 ;}
+    div>.title_pj{text-align: center;font-size:16px;color:#591614;font-weight:bold ;}
+    div>.title_pj::before {
+            content: "";
+            display: inline-block;
+            width: 5rem;
+            margin-right: 10px;
+            margin-bottom: 3px;
+            height: 2px;
+            background:#6f3e3c;
+        }
+    div>.title_pj::after {
+            content: "";
+            display: inline-block;
+            width: 5rem;
+            margin-left: 10px;
+            margin-bottom: 3px;
+            height: 2px;
+            background:#6f3e3c;
+        }
+    span>label{font-weight: bold;}
+    .long1{width: 60%;display:block;word-break: break-all;word-wrap: break-word;}
+    #four{width:100% ;text-align: center;}
+    #four>span{text-align: center;margin:0 7% ;font-size:14px }
+    #fourC{width:100% ;text-align: center;}
+    #fourC>span{text-align: center;margin:0 7% ;font-size:12px }

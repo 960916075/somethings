@@ -1,0 +1,21 @@
+    *{font-family: "微软雅黑";}
+    ion-view{background:url(../img/jm-bg.jpg) ;}
+    a{text-decoration: none;color:white ;}
+    row a{color:white ;}
+    .list a{color:black ;}
+    ion-slide div{width: 100%;height: 200px;}
+    img{width:100%}
+    .pName{font-size:12px;color:white ;}
+    .money{color:orange;font-weight: bold;}
+    .right{float: right;font-size:13px }
+    .item>div .littlefont{font-size: 10px;}
+    .littlefont span{color:red}
+    .item div p{color:brown;font-weight:bold ; }
+    .item div>p{font-size:16px }
+    .list{margin-top:-10px ;}
+    .item{background-color:#fef5e8;}
+    .myheader{width:100%;height: 250px ;background:url(../img/member-header-bg.jpg) ;padding-top:10px ;}
+    .myicon{width: 150px;margin: auto;background:none ;}
+    .nobc .item{background: none;border:none;}
+    .item h2{font-family: "微软雅黑";font-size:14px }
+    .bg1{background-color:#591614;color:#f44b47 }
